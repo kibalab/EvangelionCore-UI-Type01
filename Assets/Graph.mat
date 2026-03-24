@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Graph
+  m_Shader: {fileID: 4800000, guid: f9bf735181b8ec74e8544fbde054d89b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _DIGITMASKSOURCE_LUMINANCE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DigitTex:
+        m_Texture: {fileID: 2800000, guid: 5b32704351f62354888cbfc972fc6f9a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BaseHeight: 1.5
+    - _BumpScale: 1
+    - _CubeSize: 0.15
+    - _CurveArc: 0.42
+    - _CurveEndpointLock: 0
+    - _CurveSegments: 8
+    - _CurveThickness: 0.02
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DigitAlphaCutoff: 0.5
+    - _DigitCount: 10
+    - _DigitFloatOffset: 0.1
+    - _DigitInterval: 1
+    - _DigitMaskSource: 2
+    - _DigitPlaneHeight: 0.3
+    - _DigitPlaneWidth: 0.25
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GridResolution: 10
+    - _HeightMax: 0.5
+    - _HeightMin: 0
+    - _HitEpsilon: 0.008
+    - _HoldDuration: 0.5
+    - _Layer0Count: 12
+    - _Layer1Count: 24
+    - _Layer2Count: 16
+    - _LayerSpacing: 4
+    - _LayoutRandomness: 0.8
+    - _LeadOffset: 0.3
+    - _LineWidth: 0.01
+    - _LinksPerCube: 1
+    - _MaxLayerRotation: 45
+    - _Metallic: 0
+    - _MinLayerRotation: 12
+    - _Mode: 0
+    - _MorphDuration: 0.5
+    - _MorphElasticity: 1
+    - _MorphStagger: 0.18
+    - _NoiseSeed: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RandomSeed: 0
+    - _RayMaxSteps: 64
+    - _SmoothnessTextureChannel: 0
+    - _SpacingJitter: 0.45
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TerrainBiasJitter: 0
+    - _TerrainContrast: 3
+    - _TerrainFrequency: 1
+    - _TerrainWarp: 0
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AreaSize: {r: 8, g: 8, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CubeColor: {r: 1, g: 0.45999974, b: 0.049999937, a: 1}
+    - _DigitColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GridColor: {r: 0.09999997, g: 0.45, b: 1, a: 1}
+    - _LayerHeights: {r: 0, g: 3.59, b: 0, a: 0}
+    - _LineColor: {r: 0.85098046, g: 0.30588236, b: 0, a: 1}
+  m_BuildTextureStacks: []

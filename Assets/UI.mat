@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI
+  m_Shader: {fileID: 4800000, guid: 418670a613091144b950bad6bb1593ae, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _DIGITMASKSOURCE_LUMINANCE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DigitTex:
+        m_Texture: {fileID: 2800000, guid: 5b32704351f62354888cbfc972fc6f9a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AttachInset: 0
+    - _BaseHeight: 1.5
+    - _BumpScale: 1
+    - _ColorAProbability: 0.05
+    - _CubeSize: 0.15
+    - _CurveArc: 0.42
+    - _CurveEndpointLock: 0
+    - _CurveSegments: 8
+    - _CurveThickness: 0.03
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DiagonalBandWidth: 1.8
+    - _DigitAlphaCutoff: 0.5
+    - _DigitCount: 10
+    - _DigitFloatOffset: 0.1
+    - _DigitInterval: 1
+    - _DigitMaskSource: 2
+    - _DigitPlaneHeight: 0.3
+    - _DigitPlaneWidth: 0.25
+    - _DriftDistance: 0
+    - _DstBlend: 0
+    - _ElementCount: 5
+    - _FlowHeadWidth: 0.28
+    - _FlowJitter: 0.08
+    - _FlowSharpness: 0.5
+    - _FlowSpatialScale: 1
+    - _FlowSpeed: 0.5
+    - _FlowTailLength: 0.02
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GridResolution: 10
+    - _HeightMax: 0.5
+    - _HeightMin: 0
+    - _HitEpsilon: 0.008
+    - _HoldDuration: 0.5
+    - _InnerPadding: 0
+    - _Layer0Count: 9
+    - _Layer1Count: 24
+    - _Layer2Count: 12
+    - _LayerSpacing: 4
+    - _LeadOffset: 0.15
+    - _LineThickness: 0.003
+    - _LineWidth: 0.01
+    - _LinksPerCube: 1
+    - _MaxLayerRotation: 45
+    - _Metallic: 0
+    - _MinLayerRotation: 12
+    - _MiniLineCount: 16
+    - _MiniLineGap: 0
+    - _MiniRectHeightScale: 0.6
+    - _MiniRectSpacing: 0
+    - _MiniRectWidthScale: 0.2
+    - _MiniStackMax: 8
+    - _MiniStackMin: 1
+    - _MiniStrokeThickness: 0.002
+    - _Mode: 0
+    - _MorphDuration: 0.5
+    - _MorphElasticity: 1
+    - _NoiseSeed: 1
+    - _OcclusionStrength: 1
+    - _Opacity: 1
+    - _OutsideGap: 0
+    - _Parallax: 0.02
+    - _ParticlesPerTriangle: 21
+    - _PulseFeather: 0.09
+    - _PulseWidth: 0.01
+    - _RandomSeed: 0
+    - _RayMaxSteps: 64
+    - _Seed: 0
+    - _SideMargin: 0.05
+    - _SmoothnessTextureChannel: 0
+    - _SpacingJitter: 0
+    - _SpawnChance: 0.019
+    - _SpecularHighlights: 1
+    - _SquareOnProbability: 1
+    - _SquareScaleFade: 0.12
+    - _SquareSize: 0.05
+    - _SquareSwitchGap: 0.25
+    - _SrcBlend: 1
+    - _StrokeBoxWidth: 0.05
+    - _StrokeThickness: 0.003
+    - _TerrainBiasJitter: 0
+    - _TerrainContrast: 3
+    - _TerrainFrequency: 1
+    - _TerrainWarp: 0
+    - _UVSec: 0
+    - _VerticalBob: 0
+    - _VerticalInset: 0.15
+    - _VerticalJitter: 1
+    - _WaveAmplitude: 0.35
+    - _WaveSpeed: 0.75
+    - _WaveTravel: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _AreaSize: {r: 12, g: 12, b: 0, a: 0}
+    - _BackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorA: {r: 0.09803921, g: 1, b: 0.5678416, a: 1}
+    - _ColorB: {r: 0.09803921, g: 0.9382681, b: 1, a: 1}
+    - _CubeColor: {r: 1, g: 0.45999992, b: 0.049999982, a: 1}
+    - _DigitColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FlowDirection: {r: -1, g: 0, b: -1, a: 0}
+    - _GridColor: {r: 0.09999997, g: 0.45, b: 1, a: 1}
+    - _LayerHeights: {r: 0, g: 3.59, b: 0, a: 0}
+    - _LineColor: {r: 1, g: 0.45882356, b: 0.050980374, a: 0.54901963}
+    - _MarkerColor: {r: 1, g: 0.45882356, b: 0.050980374, a: 0.54901963}
+    - _MarkerHeightRange: {r: 0.018, g: 0.085, b: 0, a: 0}
+    - _MarkerWidthRange: {r: 0.016, g: 0.055, b: 0, a: 0}
+    - _MiniStrokeColor: {r: 1, g: 0.45882356, b: 0.050980397, a: 1}
+    - _ParticleHeightRange: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _ParticleWidthRange: {r: 0.11, g: 0.11, b: 0, a: 0}
+    - _SquareSizeRange: {r: 0.02, g: 0.08, b: 0, a: 0}
+    - _StrokeColor: {r: 0.95, g: 0.45, b: 0.079999946, a: 0.54901963}
+    - _VolumeCenter: {r: 0, g: 6, b: 0, a: 0}
+    - _VolumeSize: {r: 12, g: 8, b: 12, a: 0}
+  m_BuildTextureStacks: []
